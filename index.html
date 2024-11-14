@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peronal Portfoilo website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="logo"><span>Port</span>folio.</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portfoilo">Portfoilo</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+            <h1>Hi..,</h1>
+            <h1> I'm <span> Melanati Medha Sree </span><br>From AP,India</h1>
+            <p>I'm a skilled passianate about Software Engineer.</p>
+            <p>I'm highly motivated with excellent communication skills and a practical approach to teamwork.</p>
+            <p> I'm eager to take on additional responsibilities and contribute effectively to team goals throughout my career.</p>
+           
+        </div>
+    </div>
+</div>
+
+<! ----------About---------- ->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images\logo.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I am Melanati Medha Sree, a 4th-year Computer Science and Engineering student with a strong foundation in programming principles and web technologies.</p>
+                <p> I have experience and skills in the following areas:</p>
+                <p>Programming Languages: C, Java,DSA,Data Base and basics of JavaScript.</p>
+                <p>Data Structures and Algorithms (DSA): Proficient in key concepts and problem-solving techniques.</p>
+                <p> Web Technologies: HTML, CSS,JavaScript.</p>
+                <p>Tools: MS Office (Excel, PowerPoint, Word).</p>
+                    
+
+                <div class="tab-titles">
+                    <p onclick="opentab('skills')" class="tab-links active-link">Skills</p>
+                    <p onclick="opentab('experience')" class="tab-links">Experience</p>
+                    <p onclick="opentab('education')" class="tab-links">Education</p> 
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Artificial Intelligence with Python</span><br>
+                            To build a robust text classification model
+                            </li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Andriod/ios</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <p>No Experience</p>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019</span><br>SSC from Montessori High School,Knl with 92.15%</li>
+                        <li><span>2021</span><br>Intermediate from Govt Junior College,Ndk with 86.3%</li>
+                        <li><span>2025</span><br>B.tech from Ravindra College of Engineering for Women,Knl with 78.40%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div
+
+<! ----------Services---------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Artificial Intelligence and Machine Learning:</h2>
+                <p></p>To Automate tasks,Analyze data, Improve decision-making,Enhance user experience,Increase efficiency</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop"></i>
+                <h2>Web Development</h2>
+                <p>To Create a professional online presence,Showcase products or services,Provide information and education,Generate leads and sales and to Build brand awareness and credibility.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>App design is the process of creating the visual and interactive elements of a mobile or web application, ensuring that it provides an engaging and intuitive experience for users. It combines both UI (User Interface) and UX (User Experience) design principles to create apps that are visually appealing and easy to navigate.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <! ----------- Portfoilo ----------- -->
+
+<div id="portfoilo">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images\work-1.webp">
+                <div class="layer">
+                    <h3>Resume Builder</h3>
+                    <p>This project is a web application designed to help users create professional resumes. It allows users to input personal information, skills, experiences, and download their resumes in various formats. Technologies Used: JavaScript, HTML, CSS.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images\work-2.jpg">
+                <div class="layer">
+                    <h3>Online Banking System</h3>
+                    <p>The primary motivation behind developing an online banking system is to provide customers with a secure, convenient, and user-friendly platform to manage their financial transactions and accounts remotely. Technologies Used: Java, MySQL, HTML, CSS.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images\work-3.jpg">
+                <div class="layer">
+                    <h3>To-Do List Web Application</h3>
+                    <p>A simple web-based To-Do List application built using Java, allowing users to create, edit, and delete tasks. Technologies Used: Programming Language: Java Framework: Spring Boot Database: MySQL Frontend: HTML, CSS, JavaScript, Bootstrap Server: Apache Tomcat API: RESTful API Authentication: Spring Security Testing: JUnit, Mockito Development Tools: 1. IDE: Eclipse, IntelliJ IDEA 2. Version Control: Git 3. Project Management: Agile, Jira.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<! ------ Contact ----- ->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tile">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> medhasree45@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i> 8317632985</p>
+                <div class="social-icons">
+                    
+                    <a href="https://github.com/Melanati-Medha3"><i class="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/sree_soulful/profilecard/?igsh=eDYyZzh3NnhhYWVz"><i class="fab fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/medhasree"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="C:\Users\MELANATI MEDHA SREE\Desktop\portfolio\images\MELANATI MEDHA SREE(Res).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Portfoilo. Made with by Easy Tutorials</p>
+    </div>
+</div>
+<! ------ JavaScript ----- -->
+<script>
+    
+let tablinks = document.getElementsByClassName("tab-links");
+let tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+    }
+    event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab")
+}
+
+let sidemenu = document.getElementById("sidemenu")
+
+function openmenu(){
+    sidemenu.style.right = "0";
+
+}
+
+function closemenu(){
+    sidemenu.style.right = "-200px";
+
+}
+</script>
+<script>
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyqP2vjZnC19tcuZWvh0xP5CsHO1hjAa2OIqyEk-ee83cQ0As_1rVAkmia0xm69_Qet/exec'
+const form = document.forms['submit-to-google-sheet']
+const msg = document.getElementById("msg")
+
+form.addEventListener('submit', e => {
+  e.preventDefault()
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response =>{
+        msg.innerHTML = "Message sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+    .catch(error => console.error('Error!', error.message))
+})
+
+</script>
+</body>
+</html>
